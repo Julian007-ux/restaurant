@@ -213,7 +213,7 @@ export default function MenuAdminPage() {
                 <Label htmlFor="image_1">Image URL 1</Label>
                 <Input
                   id="image_1"
-                  type="url"
+                  type="text"
                   value={formData.image_1}
                   onChange={(e) =>
                     setFormData((prev) => ({ ...prev, image_1: e.target.value }))
