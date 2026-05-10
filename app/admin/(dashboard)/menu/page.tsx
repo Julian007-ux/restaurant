@@ -174,7 +174,7 @@ export default function MenuAdminPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label htmlFor="price">Price ($) *</Label>
+                  <Label htmlFor="price">Price (KZ) *</Label>
                   <Input
                     id="price"
                     type="number"
@@ -287,7 +287,7 @@ export default function MenuAdminPage() {
                     {item.category}
                   </TableCell>
                   <TableCell className="text-primary">
-                    ${Number(item.price).toFixed(2)}
+                    KZ{Number(item.price).toFixed(2)}
                   </TableCell>
                   <TableCell className="text-right">
                     <div className="flex justify-end gap-2">

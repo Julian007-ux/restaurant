@@ -154,7 +154,7 @@ function MenuCard({ item, index }: { item: MenuItem; index: number }) {
             {item.name}
           </h3>
           <span className="text-primary font-bold text-lg">
-            ${Number(item.price).toFixed(2)}
+            KZ{Number(item.price).toFixed(2)}
           </span>
         </div>
         <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2">
