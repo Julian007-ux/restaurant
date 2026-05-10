@@ -50,7 +50,7 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md">
         <Link href="/" className="block text-center mb-8">
           <span className="font-serif text-2xl font-bold text-primary">
-            The Golden Fork
+            Don's & Mamma's
           </span>
         </Link>
 
@@ -81,7 +81,7 @@ export default function AdminLoginPage() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@goldenfork.com"
+                  placeholder="admin@donsmammas.com"
                   className="bg-secondary border-border"
                 />
               </div>

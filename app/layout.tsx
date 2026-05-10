@@ -14,25 +14,25 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'The Golden Fork | Fine Dining Restaurant',
-  description: 'Experience culinary excellence at The Golden Fork. Where tradition meets innovation in every dish we create.',
+  title: 'Dons & Mammas | Fine Dining Restaurant',
+  description: 'Experience culinary excellence at Dons & Mammas. Where tradition meets innovation in every dish we create.',
   keywords: ['restaurant', 'fine dining', 'gourmet', 'cuisine'],
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon.png',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon.png',
   },
 }
 

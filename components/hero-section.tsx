@@ -19,7 +19,7 @@ export function HeroSection({ settings }: HeroSectionProps) {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/images/hero-bg.jpg)',
+            backgroundImage: 'url(/images/hero-bg.png)',
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
@@ -44,7 +44,6 @@ export function HeroSection({ settings }: HeroSectionProps) {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-primary tracking-[0.3em] uppercase text-sm mb-6"
           >
-            Est. 2010
           </motion.p>
 
           {/* Main Title */}

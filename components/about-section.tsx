@@ -25,7 +25,7 @@ export function AboutSection({ settings, staff }: AboutSectionProps) {
           >
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/images/about-restaurant.jpg"
+                src="/images/about-restaurant.png"
                 alt="Our Restaurant Interior"
                 fill
                 className="object-cover"
@@ -51,7 +51,7 @@ export function AboutSection({ settings, staff }: AboutSectionProps) {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 {settings?.about_story ||
-                  'Founded in 2010, The Golden Fork has been serving exceptional cuisine to discerning guests. Our commitment to quality ingredients and masterful preparation has made us a destination for food lovers.'}
+                  'Founded in 2010, The Dons & Mammas has been serving exceptional cuisine to discerning guests. Our commitment to quality ingredients and masterful preparation has made us a destination for food lovers.'}
               </p>
               <p>
                 Every dish that leaves our kitchen is a testament to our dedication to
@@ -65,13 +65,13 @@ export function AboutSection({ settings, staff }: AboutSectionProps) {
             <div className="grid grid-cols-3 gap-6 mt-10">
               <div className="text-center">
                 <span className="block font-serif text-4xl font-bold text-primary">
-                  15+
+                  10+
                 </span>
                 <span className="text-muted-foreground text-sm">Years Experience</span>
               </div>
               <div className="text-center">
                 <span className="block font-serif text-4xl font-bold text-primary">
-                  50+
+                  30+
                 </span>
                 <span className="text-muted-foreground text-sm">Signature Dishes</span>
               </div>

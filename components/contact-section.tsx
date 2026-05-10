@@ -42,7 +42,7 @@ export function ContactSection({ settings }: ContactSectionProps) {
             <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="font-serif text-lg font-semibold text-foreground mb-2">
+            <h3 className="font-serif text-lg font-semibold text-foreground mb-2" href={`https://www.google.com/maps/search/?api=1&query=restaurante+dons and mammas+luanda`} target="_blank" rel="noopener noreferrer">
               Location
             </h3>
             <p className="text-muted-foreground text-sm">
@@ -88,10 +88,10 @@ export function ContactSection({ settings }: ContactSectionProps) {
             </h3>
             <p className="text-muted-foreground text-sm">
               <a
-                href={`mailto:${settings?.contact_email || 'info@goldenfork.com'}`}
+                href={`mailto:${settings?.contact_email || 'info@donsmammasfork.com'}`}
                 className="hover:text-primary transition-colors"
               >
-                {settings?.contact_email || 'info@goldenfork.com'}
+                {settings?.contact_email || 'info@donsmammasfork.com'}
               </a>
             </p>
           </motion.div>
