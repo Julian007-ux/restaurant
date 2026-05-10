@@ -145,7 +145,7 @@ export default function StaffAdminPage() {
                 <Label htmlFor="image">Photo URL</Label>
                 <Input
                   id="image"
-                  type="url"
+                  type="text"
                   value={formData.image}
                   onChange={(e) =>
                     setFormData((prev) => ({ ...prev, image: e.target.value }))

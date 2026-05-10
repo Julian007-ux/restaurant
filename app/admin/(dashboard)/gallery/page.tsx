@@ -97,7 +97,7 @@ export default function GalleryAdminPage() {
                 <Label htmlFor="image_url">Image URL *</Label>
                 <Input
                   id="image_url"
-                  type="url"
+                  type="text"
                   required
                   value={formData.image_url}
                   onChange={(e) =>
