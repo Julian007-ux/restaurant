@@ -37,12 +37,13 @@ export function ContactSection({ settings }: ContactSectionProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
+            href={`https://www.google.com/maps/search/?api=1&query=restaurante+dons and mammas+luanda`} target="_blank" rel="noopener noreferrer"
             className="bg-card border border-border rounded-lg p-6 text-center hover:border-primary/50 transition-colors"
           >
             <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="font-serif text-lg font-semibold text-foreground mb-2" href={`https://www.google.com/maps/search/?api=1&query=restaurante+dons and mammas+luanda`} target="_blank" rel="noopener noreferrer">
+            <h3 className="font-serif text-lg font-semibold text-foreground mb-2">
               Location
             </h3>
             <p className="text-muted-foreground text-sm">
