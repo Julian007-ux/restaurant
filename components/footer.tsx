@@ -26,7 +26,7 @@ export function Footer({ settings }: FooterProps) {
           >
             <Link href="/" className="inline-block mb-4">
               <span className="font-serif text-2xl font-bold text-primary">
-                {settings?.site_name || 'Dons & Mammas'}
+                {settings?.site_name || 'Prime Bite'}
               </span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
@@ -136,10 +136,10 @@ export function Footer({ settings }: FooterProps) {
               </li>
               <li>
                 <a
-                  href={`mailto:${settings?.contact_email || 'info@donsmammas.com'}`}
+                  href={`mailto:${settings?.contact_email || 'info@primebite.com'}`}
                   className="hover:text-primary transition-colors"
                 >
-                  {settings?.contact_email || 'info@donsmammas.com'}
+                  {settings?.contact_email || 'info@primebite.com'}
                 </a>
               </li>
             </ul>
@@ -149,7 +149,7 @@ export function Footer({ settings }: FooterProps) {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            &copy; {currentYear} {settings?.site_name || 'Dons & Mammas'}. All
+            &copy; {currentYear} {settings?.site_name || 'Prime Bite'}. All
             rights reserved.
           </p>
           <div className="flex gap-6 text-sm">

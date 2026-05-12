@@ -51,7 +51,7 @@ export function AboutSection({ settings, staff }: AboutSectionProps) {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 {settings?.about_story ||
-                  'Founded in 2010, The Dons & Mammas has been serving exceptional cuisine to discerning guests. Our commitment to quality ingredients and masterful preparation has made us a destination for food lovers.'}
+                  'Founded in 2010, The Prime Bite has been serving exceptional cuisine to discerning guests. Our commitment to quality ingredients and masterful preparation has made us a destination for food lovers.'}
               </p>
               <p>
                 Every dish that leaves our kitchen is a testament to our dedication to

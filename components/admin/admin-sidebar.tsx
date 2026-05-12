@@ -69,7 +69,7 @@ export function AdminSidebar({ user }: AdminSidebarProps) {
         <div className="p-6 border-b border-border">
           <Link href="/admin" className="block">
             <span className="font-serif text-xl font-bold text-primary">
-              Don's & Mamma's
+              Prime Bite
             </span>
             <span className="block text-xs text-muted-foreground mt-1">
               Admin Panel

@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Dons & Mammas | Fine Dining Restaurant',
-  description: 'Experience culinary excellence at Dons & Mammas. Where tradition meets innovation in every dish we create.',
+  title: 'American Restaurant| Prime Bite',
+  description: 'Experience culinary excellence at Prime Bite. Where tradition meets innovation in every dish we create.',
   keywords: ['restaurant', 'fine dining', 'gourmet', 'cuisine'],
   icons: {
     icon: [

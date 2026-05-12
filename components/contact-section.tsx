@@ -45,7 +45,7 @@ export function ContactSection({ settings }: ContactSectionProps) {
             <h3 className="font-serif text-lg font-semibold text-foreground mb-2">
               Location
             </h3>
-            <a href={`https://www.google.com/maps/search/?api=1&query=restaurante+dons and mammas+luanda`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href={`https://www.google.com/maps/search/?api=1&query=restaurante+prime bite+luanda`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               {settings?.contact_address || '123 Gourmet Avenue, New York, NY 10001'}
             </a>
           </motion.div>
@@ -88,10 +88,10 @@ export function ContactSection({ settings }: ContactSectionProps) {
             </h3>
             <p className="text-muted-foreground text-sm">
               <a
-                href={`mailto:${settings?.contact_email || 'info@donsmammasfork.com'}`}
+                href={`mailto:${settings?.contact_email || 'info@primebite.com'}`}
                 className="hover:text-primary transition-colors"
               >
-                {settings?.contact_email || 'info@donsmammasfork.com'}
+                {settings?.contact_email || 'info@primebite.com'}
               </a>
             </p>
           </motion.div>
